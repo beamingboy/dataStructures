@@ -13,7 +13,7 @@ int main()
         Here, address = array = &array[0]
               value = array[i] = *(array+i)
     */
-
+   
    std::cout << array << std::endl; // address of first element
    std::cout << p << std::endl;     // address of first element
    std::cout << *p << std::endl;    // value of first element
