@@ -119,5 +119,7 @@ int main()
 
     // cout << list1.head->data<< endl;
 
+    delete list1;
+
 
 }

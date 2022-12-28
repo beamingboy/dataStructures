@@ -17,15 +17,14 @@ class Stack
         int array[5];
     
     public:
-        stack();
+        Stack();
         int count();
         void pop();
         void push(int data);
         bool isEmpty();
         bool isFull();
-        void change();
         void print();
-        ~stack();
+        ~Stack();
 
 };
 #endif
